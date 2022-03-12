@@ -1,5 +1,10 @@
 # image stegnography using LSB
 image steganography by using android studio
+
+
+App preview
+![im](https://user-images.githubusercontent.com/101442858/158006324-f8314046-443e-4e85-86a3-f03d9be28e70.png)
+
 Image steganography refers to hiding information i.e. text, images or audio files in another image or video files. The current project aims to use steganography for an image with another image using spatial domain technique. This hidden information can be retrieved only through proper decoding technique.
 
 The word Steganography is derived from two Greek words- ‘stegos’ meaning ‘to cover’ and ‘grayfia’, meaning ‘writing’, thus translating to ‘covered writing’, or ‘hidden writing’. Steganography is a method of hiding secret data, by embedding it into an audio, video, image, or text file. It is one of the methods employed to protect secret or sensitive data from malicious attacks. 
@@ -23,10 +28,6 @@ An image is represented as an N*M (in case of greyscale images) or N*M*3 (in cas
 
 Detection of the message within the cover image is done by the process of steganalysis. This can be done through comparison with the cover image, histogram plotting, or noise detection. While efforts are being invested in developing new algorithms with a greater degree of immunity against such attacks, efforts are also being devoted towards improving existing algorithms for steganalysis, to detect the exchange of secret information between terrorists or criminal elements. 
  
-picture of application
-![im](https://user-images.githubusercontent.com/101442858/158006324-f8314046-443e-4e85-86a3-f03d9be28e70.png)
-
-
 Methodology:
 User needs to run the application. The user has two tab options – encrypt and decrypt. If user select encrypt, application give the screen to select image file, information file and option to save the image file. If user select decrypt, application gives the screen to select only image file and ask path where user want to save the secrete file.
 This project has two methods – Encrypt and Decrypt.
