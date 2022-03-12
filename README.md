@@ -20,9 +20,19 @@ As the name suggests, Image Steganography refers to the process of hiding data w
 
 An image is represented as an N*M (in case of greyscale images) or N*M*3 (in case of color images) matrix in memory, with each entry representing the intensity value of a pixel. In image steganography, a message is embedded into an image by altering the values of some pixels, which are chosen by an encryption algorithm. The recipient of the image must be aware of the same algorithm in order to know which pixels he or she must select to extract the message.
 
-![9475142 fig 001](https://user-images.githubusercont![im](https://user-images.githubusercontent.com/101442858/158006302-28c3852e-8d8f-475a-a944-3a2350f916e5.png)
 
 Detection of the message within the cover image is done by the process of steganalysis. This can be done through comparison with the cover image, histogram plotting, or noise detection. While efforts are being invested in developing new algorithms with a greater degree of immunity against such attacks, efforts are also being devoted towards improving existing algorithms for steganalysis, to detect the exchange of secret information between terrorists or criminal elements. 
  
 picture of application
 ![im](https://user-images.githubusercontent.com/101442858/158006324-f8314046-443e-4e85-86a3-f03d9be28e70.png)
+
+
+Methodology:
+User needs to run the application. The user has two tab options – encrypt and decrypt. If user select encrypt, application give the screen to select image file, information file and option to save the image file. If user select decrypt, application gives the screen to select only image file and ask path where user want to save the secrete file.
+This project has two methods – Encrypt and Decrypt.
+In encryption the secrete information is hiding in with any type of image file.
+Decryption is getting the secrete information from image file.
+![Steganography_flow](https://user-images.githubusercontent.com/101442858/158006404-d7f0789e-f408-4d7c-beee-ade9e6aed722.gif)
+
+Project Scope:
+This project is developed for hiding information in any image file. The scope of the project is implementation of steganography tools for hiding information includes any type of information file and image files and the path where the user wants to save Image and extruded file.
